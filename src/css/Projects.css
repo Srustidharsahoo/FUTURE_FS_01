@@ -1,0 +1,136 @@
+.project-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    row-gap: 2rem;
+}
+
+.project-head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    text-align: center;
+    row-gap: 1rem;
+}
+
+.project-head span{
+    color: violet;
+}
+
+.project-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 2rem;
+
+}
+
+.project-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #ddd;
+    row-gap: 1rem;
+    padding: 1rem;
+    border-radius: .5rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: #1F1F1F;
+    color: #fff;
+}
+
+.project-image{
+    width: 100%;
+}
+
+.project-image img{
+    width: 100%;
+    border-radius: .5rem;
+}
+
+.project-tech{
+    display: flex;
+    flex-direction: row;
+    column-gap: 1rem;
+}
+
+.project-tech button{
+    padding: .2rem .3rem;
+    border-radius: .5rem;
+    border: none;
+    background-color: #A78BFA;
+    color: #fff;
+}
+
+.project-name{
+    display: flex;
+    flex-direction: column;
+    row-gap: .5rem;
+}
+
+.project-name p{
+    font-size: 1.1rem;
+    color: violet;
+    font-weight: bold;
+}
+
+.project-name span{
+    font-size: .9rem;
+}
+
+.project-btn{
+    display: flex;
+    flex-direction: row;
+    column-gap: 1rem;
+    font-size: 1.3rem;
+    color: aquamarine;
+}
+
+.project-footer button{
+    padding: .5rem 2rem;
+    font-size: 1.1rem;
+    background-color: #A78BFA;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 431px){
+
+    .project-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    row-gap: 2rem;
+}
+
+    .project-head{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    row-gap: 1rem;
+}
+
+
+    .project-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 2rem;
+
+}
+
+}
